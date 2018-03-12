@@ -5,6 +5,8 @@ This code trains a convolutional neural network on the Cifar-10 image dataset. U
 
 ## Architecture
  INPUT -> [CONV -> RELU -> CONV -> RELU -> POOL]*3 -> [FC -> RELU]*2 -> FC
+ 
+ As per suggestion by Stanford's [CS231n](http://cs231n.github.io/convolutional-networks/#architectures)
 
 ## Accuracy
 This model has achieved 70.89% test accuracy on the Cifar-10 dataset with batch size of 128 and 30 epochs.
